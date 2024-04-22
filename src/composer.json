@@ -1,0 +1,25 @@
+{
+    "name": "sumi/transaction-details",
+    "description": "Tool to query transaction details",
+    "type": "project",
+    "require": {
+        "slim/slim": "4.x-dev",
+        "php-di/php-di": "dev-master",
+        "psr/log": "3.x-dev",
+        "psr/http-message": "2.0.x-dev",
+        "guzzlehttp/guzzle": "8.0.x-dev",
+        "slim/twig-view": "^1.2",
+        "ext-pdo": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sumi\\TransactionDetails\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "sumi"
+        }
+    ],
+    "minimum-stability": "dev"
+}
